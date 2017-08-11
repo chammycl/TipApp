@@ -17,8 +17,10 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //get current settings for tipControl
         tipControl.selectedSegmentIndex = UserDefaults.standard.integer(forKey: "SegmentTip")
         
+        //get current settings for theme
         themeSwitch.isOn = UserDefaults.standard.bool(forKey: "ThemeSwitch")
         
         // Do any additional setup after loading the view.
@@ -30,10 +32,12 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func onSegmentClick(_ sender: Any) {
+        //save selected tipControl settings
         UserDefaults.standard.set(tipControl.selectedSegmentIndex, forKey: "SegmentTip")
     }
 
     @IBAction func changeTheme(_ sender: Any) {
+        //save selected theme settings
         UserDefaults.standard.set(themeSwitch.isOn, forKey: "ThemeSwitch")
     }
     
