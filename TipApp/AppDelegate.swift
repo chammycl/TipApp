@@ -44,6 +44,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        
+        //call function clearBill after 10min
+        Timer.scheduledTimer(timeInterval: 600.0, target: self, selector: #selector(AppDelegate.clearBill), userInfo: nil, repeats: false)
     }
     
     func clearBill() {
