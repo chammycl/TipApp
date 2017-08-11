@@ -122,7 +122,7 @@ class ViewController: UIViewController {
     //load theme
     func loadTheme() {
         if (UserDefaults.standard.bool(forKey: "ThemeSwitch") == true) {
-            //darker blue theme
+            //dark blue theme
             view.backgroundColor = UIColor(red: 0.1, green: 0.3, blue: 0.7, alpha: 1.0)
             tipControl.tintColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         } else {

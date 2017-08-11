@@ -24,6 +24,7 @@ class SettingsViewController: UIViewController {
         themeSwitch.isOn = UserDefaults.standard.bool(forKey: "ThemeSwitch")
         
         // Do any additional setup after loading the view.
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -39,6 +40,7 @@ class SettingsViewController: UIViewController {
     @IBAction func changeTheme(_ sender: Any) {
         //save selected theme settings
         UserDefaults.standard.set(themeSwitch.isOn, forKey: "ThemeSwitch")
+        
     }
     
     /*
