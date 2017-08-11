@@ -50,5 +50,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //clear bill after 10 min
         UserDefaults.standard.set("", forKey: "Bill")
     }
+    
 }
 
