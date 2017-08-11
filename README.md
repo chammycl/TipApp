@@ -39,7 +39,7 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Answer:**
 
-The first time I launched XCode, I felt overwhelmed I was a bit lost with all icons and pane-views. The video walkththrough on the TipApp was really helpful and as I was building the app myself, I enjoyed clicking and dragging from the storyboard. :) If I were talking to another developer, I would describe that the outlets and actions are built-in tools where I can build and plug-in my functions to. I came from a top-down background approach in programming, so to be able to program and develop with a drag and drop concept is really cool and convenient. I like the idea of just dragging an event to the code editor and directly code the function for it.
+The first time I launched XCode, I felt overwhelmed. I was a bit lost with all icons and pane-views. The video walkththrough on the TipApp was really helpful and as I was building the app myself, I enjoyed clicking and dragging from the storyboard. :) If I were talking to another developer, I would describe that the outlets and actions are built-in tools where I can build and plug-in my functions to. I came from a top-down background approach in programming, so to be able to program and develop with a drag and drop concept is really cool and convenient. I like the idea of just dragging an event to the code editor and directly code the function for it.
 
 It is really so cool to learn that under the hood, the everything is being built in HTML! So developing an app actually means generating a code in HTML. That's really fun! :)
 
