@@ -79,6 +79,15 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     
+    @IBAction func changePercent(_ sender: Any) {
+        //bounch the total value upon change of tip percentage
+        self.totalLabel.transform = CGAffineTransform(scaleX: 1.0, y: 2.0)
+        
+        UIView.animate(withDuration: 2.0, delay: 0.0, usingSpringWithDamping: 0.2, initialSpringVelocity: 6.0, options: [], animations: {
+            self.totalLabel.transform = .identity
+        }, completion: nil)
+    }
+    
     @IBAction func calculateTip(_ sender: Any) {
         //calculate tip
         calcTip()
