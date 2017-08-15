@@ -183,6 +183,5 @@ class ViewController: UIViewController {
             billField.text = ""
         }
     }
-    
 }
 
