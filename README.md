@@ -22,6 +22,8 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [X] Split bill function
+- [X] Auto-layout
+- [X] Included an Icon App
 
 ## Video Walkthrough 
 
