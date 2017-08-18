@@ -97,6 +97,18 @@ class ViewController: UIViewController {
         //split bill
         splitBill()
     }
+
+    @IBAction func sharePressed(_ sender: Any) {
+        let message = "Total Bill: " + totalLabel.text! +
+                      " Split Bill in: " + numPerson.text! +
+                      " Share per Person: " + sharePerson.text!
+        
+        let activity = UIActivityViewController(activityItems: [message], applicationActivities: nil)
+    
+        activity.popoverPresentationController?.sourceView = self.view
+        
+        self.present(activity, animated: true, completion: nil)
+    }
     
     //calculate tip
     func calcTip() {

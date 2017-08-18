@@ -221,6 +221,11 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Tip Calculator" id="yJY-5I-gVz">
+                        <barButtonItem key="leftBarButtonItem" systemItem="action" id="6kD-h5-L36">
+                            <connections>
+                                <action selector="sharePressed:" destination="BYZ-38-t0r" id="osR-9z-xo9"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="1BT-5q-6od">
                             <connections>
                                 <segue destination="V87-vf-cKJ" kind="push" id="iGJ-hf-5Of"/>

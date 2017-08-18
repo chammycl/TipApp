@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C07F8001F479D200010F2DC /* TipApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TipApp.entitlements; sourceTree = "<group>"; };
 		1C59C80B1F3A82D600A51B3E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1C8C0B291F3A3D9100C87554 /* TipApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C8C0B2C1F3A3D9100C87554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +103,7 @@
 		1C8C0B2B1F3A3D9100C87554 /* TipApp */ = {
 			isa = PBXGroup;
 			children = (
+				1C07F8001F479D200010F2DC /* TipApp.entitlements */,
 				1C8C0B2C1F3A3D9100C87554 /* AppDelegate.swift */,
 				1C8C0B2E1F3A3D9100C87554 /* ViewController.swift */,
 				1C8C0B301F3A3D9100C87554 /* Main.storyboard */,
@@ -200,6 +202,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 7TRQY2VHQ3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					1C8C0B3C1F3A3D9100C87554 = {
 						CreatedOnToolsVersion = 8.3.3;
